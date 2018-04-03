@@ -50,44 +50,4 @@ public class UnitTest1 {
     public void correctCase9() throws Exception {
         assertEquals(4, 2 + 2);
     }
-    @Test
-    public void failingCase0() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase1() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase2() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase3() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase4() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase5() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase6() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase7() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase8() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
-    @Test
-    public void failingCase9() throws Exception {
-        assertEquals(4, 2 + 1);
-    }
 }
