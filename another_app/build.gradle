@@ -25,6 +25,11 @@ android {
             applicationIdSuffix ".demo"
             versionNameSuffix "-demo"
         }
+        anotherDemo {
+            dimension "version"
+            applicationIdSuffix ".another_demo"
+            versionNameSuffix "-another_demo"
+        }
         full {
             dimension "version"
             applicationIdSuffix ".full"
