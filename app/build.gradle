@@ -23,6 +23,7 @@ android {
 
 jacoco {
     toolVersion = "0.8.3"
+    reportsDir = file("$buildDir/test-results/testDebugUnitTest")
 }
 
 tasks.withType(Test) {
@@ -40,7 +41,7 @@ dependencies {
 
 jacocoAndroidUnitTestReport {
     csv.enabled false
-    html.enabled true
+    html.enabled false
     xml.enabled true
 }
 
