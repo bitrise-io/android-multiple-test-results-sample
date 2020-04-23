@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 28
     defaultConfig {
         applicationId "sample.results.test.multiple.bitrise.com.multipletestresultssample"
         minSdkVersion 26
