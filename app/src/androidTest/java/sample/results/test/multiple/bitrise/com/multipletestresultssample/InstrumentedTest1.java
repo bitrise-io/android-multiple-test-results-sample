@@ -54,44 +54,4 @@ public class InstrumentedTest1 {
     public void correctUITestCase9() throws Exception {
         assertEquals(4, 2+2);
     }
-    @Test
-    public void failedUITestCase0() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase1() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase2() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase3() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase4() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase5() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase6() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase7() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase8() throws Exception {
-        assertEquals(4, 2+1);
-    }
-    @Test
-    public void failedUITestCase9() throws Exception {
-        assertEquals(4, 2+1);
-    }
 }
