@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'jacoco-android'
 
 android {
     compileSdkVersion 28
@@ -35,15 +34,6 @@ android {
     }
 }
 
-jacoco {
-    toolVersion = "0.8.3"
-    reportsDir = file("$buildDir/test-results")
-}
-
-tasks.withType(Test) {
-    jacoco.includeNoLocationClasses = true
-}
-
 dependencies {
     implementation project(":app:mylibrary")
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -52,14 +42,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
-}
-
-jacocoAndroidUnitTestReport {
-    csv.enabled false
-    html.enabled false
-    xml.enabled true
-}
-
-project.afterEvaluate {
-    project.tasks.findByName('testDebugUnitTest').finalizedBy(project.tasks.findByName('jacocoTestReport'))
 }
