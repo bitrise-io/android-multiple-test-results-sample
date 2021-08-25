@@ -36,6 +36,9 @@ android {
             versionNameSuffix "-full"
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
