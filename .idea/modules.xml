@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-multiple-test-results-sample.iml" filepath="$PROJECT_DIR$/android-multiple-test-results-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/another_app/another_app.iml" filepath="$PROJECT_DIR$/another_app/another_app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-multiple-test-results-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/android-multiple-test-results-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/another_app/android-multiple-test-results-sample.another_app.iml" filepath="$PROJECT_DIR$/.idea/modules/another_app/android-multiple-test-results-sample.another_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-multiple-test-results-sample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-multiple-test-results-sample.app.iml" />
     </modules>
   </component>
 </project>
