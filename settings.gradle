@@ -1,1 +1,2 @@
 include ':app', ':another_app', ':app:mylibrary'
+include ':app:nested_app'
