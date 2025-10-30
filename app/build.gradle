@@ -32,7 +32,7 @@ android {
             versionNameSuffix "-full"
         }
     }
-    lintOptions {
+    lint {
         abortOnError false
     }
 }
