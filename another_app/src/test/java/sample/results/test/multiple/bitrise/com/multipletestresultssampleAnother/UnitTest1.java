@@ -1,4 +1,4 @@
-package sample.results.test.multiple.bitrise.com.multipletestresultssample;
+package sample.results.test.multiple.bitrise.com.multipletestresultssampleAnother;
 
 import org.junit.Test;
 
@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class UnitTest0 {
+public class UnitTest1 {
     @Test
     public void correctCase0() throws Exception {
         assertEquals(4, 2 + 2);

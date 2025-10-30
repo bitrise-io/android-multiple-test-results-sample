@@ -1,4 +1,4 @@
-package sample.results.test.multiple.bitrise.com.multipletestresultssample;
+package sample.results.test.multiple.bitrise.com.multipletestresultssampleAnother;
 
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
-public class InstrumentedTest1 {
+public class InstrumentedTest0 {
     @Test
     public void correctUITestCase0() throws Exception {
         assertEquals(4, 2+2);
