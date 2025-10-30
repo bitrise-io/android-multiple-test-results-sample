@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 31
+    namespace 'sample.results.test.multiple.bitrise.com.multipletestresultssampleAnother'
+    compileSdkVersion 36
     defaultConfig {
-        applicationId "sample.results.test.multiple.bitrise.com.multipletestresultssample"
+        applicationId "sample.results.test.multiple.bitrise.com.multipletestresultssampleAnother"
         minSdkVersion 26
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
     }
     buildTypes {
         release {
